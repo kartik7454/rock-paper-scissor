@@ -1,0 +1,114 @@
+body{ min-height:  100vh;
+  background-repeat: no-repeat;
+  background-image:radial-gradient(at top,hsl(214, 47%, 23%) ,   hsl(237, 49%, 15%));
+}
+
+.top{display: grid;
+grid-template-areas: 'a a ';
+width: 50rem;
+height:12rem;
+grid-gap:  420px ;
+border-radius: 15px;
+border-color: grey;
+border-width: 4px;
+margin-left: 20rem;
+margin-top: 100px;
+border-style:solid;
+padding:0px 50px 0px 50px;
+}
+
+.score{text-align:center ;
+  margin-top: 20px;
+
+  width:10rem;
+  height: 9.5rem;
+  border-radius: 15px;
+background-color: white
+}
+
+.rps{color:white;
+text-transform:uppercase;
+font-family: Barlow Semi Condensed;
+font-weight:Bold ;
+font-size: 30px;
+line-height: .1;
+}
+.game{background-image:url("C:/Users/kb848/Downloads/rock-paper-scissors-master/rock-paper-scissors-master/images/bg-triangle.svg");
+background-repeat: no-repeat;
+height: 500px;
+margin-left: 600px;
+margin-top: 200px}
+
+.paperdiv{position: absolute;
+top:400px;
+left:800px}
+
+.rockdiv {position: absolute;
+top:600px;
+left:670px;
+height: 100px;
+width: 100px}
+
+.scissorsdiv{position: absolute;
+top:400px;
+left:550px;
+height: 100px;
+width: 100px}
+
+.rock,.paper,.scissors{height: 200px;
+width: 200px;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 100%;
+border-width:20px;
+border-style: solid;}
+
+  .rock{background-image: url("C:/Users/kb848/Downloads/rock-paper-scissors-master/rock-paper-scissors-master/images/icon-rock.svg");
+  border-color:#DB2F4D }
+    .paper{background-image: url("C:/Users/kb848/Downloads/rock-paper-scissors-master/rock-paper-scissors-master/images/icon-paper.svg");
+    border-color:#4765F6}
+    .scissors{background-image: url("C:/Users/kb848/Downloads/rock-paper-scissors-master/rock-paper-scissors-master/images/icon-scissors.svg");
+  border-color:#E99E0D;}
+
+
+.nobg{background-image: url();}
+
+
+
+.positionychose{position: absolute;
+top :500px;
+left:350px}
+
+.positionresult{position: absolute;
+top :550px;
+left:700px}
+
+.positonbtn{text-transform:uppercase;
+font-family: Barlow Semi Condensed;
+  position: absolute;
+top :650px;
+left:700px ;
+background-color: #e7e7e7;
+color:black ;
+  border: 1px;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer }
+
+.positionhchose{
+  position: absolute;
+top :500px;
+left:950px}
+
+.ycp{position: absolute;
+top :400px;
+left:400px}
+
+.hcp{position: absolute;
+top :400px;
+left:1000px}
